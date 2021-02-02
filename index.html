@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tilt Parallax 3D Effect</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="imgBx">
+          <img src="img1.jpg">
+        </div>
+        <div class="contentBx">
+          <h2>Tilt Box Hover Effects</h2>
+          <p>Dictumst sollicitudin ut metus tempor sodales id
+            orci nisl primis vulputate duis?
+            Massa porta nisi in dui gravida.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="box">
+        <div class="imgBx">
+          <img src="img2.jpg">
+        </div>
+        <div class="contentBx">
+          <h2>Tilt Box Hover Effects</h2>
+          <p>Dictumst sollicitudin ut metus tempor sodales id
+            orci nisl primis vulputate duis?
+            Massa porta nisi in dui gravida.</p>
+        </div>
+          </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".box"),
+    {
+		max: 25,
+		speed: 400
+	});
+</script>
+  </body>
+</html>
